@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="step"
+            type="com.cleverchuk.bakingfun.models.Step" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/video_unavailable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:src="@drawable/ic_video_unavailable"
+                android:contentDescription="@string/video_unavailable" />
+
+            <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+                android:id="@+id/playerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/instruction_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/dimen_8"
+            android:layout_marginEnd="@dimen/dimen_8"
+            android:layout_marginStart="@dimen/dimen_8"
+            android:layout_marginTop="@dimen/dimen_8"
+            android:layout_weight="1"
+            android:text="@{step.description}"
+            tools:text="Instructions" />
+
+    </LinearLayout>
+</layout>

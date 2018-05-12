@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Baking fun</string>
+    <string name="data_endpoint">https://d17h27t6h515a5.cloudfront.net/topher/2017/May/59121517_baking/baking.json</string>
+
+    <string name="recipe_image">recipe image</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="title">title</string>
+    <string name="make_choice">Choose a recipe</string>
+    <string name="video_unavailable">video unavailable</string>
+    <string name="step_position">step-position</string>
+    <string name="recipe">recipe</string>
+    <string name="cur_pos">current-pos</string>
+</resources>

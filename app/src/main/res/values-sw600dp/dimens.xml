@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">24sp</dimen>
+    <dimen name="column_span">500</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+</resources>
