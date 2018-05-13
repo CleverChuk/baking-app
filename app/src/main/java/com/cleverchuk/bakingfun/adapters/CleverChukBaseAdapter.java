@@ -1,5 +1,4 @@
 /*
- *
  * MIT License
  *
  * Copyright (c) 2018 Chukwubuikem Ume-Ugwa
